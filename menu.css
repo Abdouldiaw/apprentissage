@@ -1,0 +1,73 @@
+      body{
+    background-color: black;
+}
+.content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bg-icon{
+    background: hwb(0 97% 2%);
+    text-align: center;
+    width: 400px;
+    padding-top: 29rem;
+    height: 29vh;color: hsl(180, 2%, 9%);
+}
+.bg-h1{
+    background-color: #77eeee;
+}
+.section-un{
+    position: absolute;
+    display: grid;
+    margin-left: 2%;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 50px;
+    padding: 10px;
+    margin-top: 11%;
+}
+.section-un > div {
+   text-align: center;
+    padding: 20px 0;
+   font-size: 20px;
+}
+form{
+    background: #77eeee;
+    width: 100%;
+    font-size: 40px;
+    color: rgb(21, 20, 20);
+    height: 95vh;
+    margin-left: 75%;
+    padding: 5px;
+}
+ form input[type=text]{
+    width: 80%;
+    padding: 10px;
+    font-size: 100px;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.size-btn{
+    font-size: 10rem;
+}
+button{
+    background-color: #77eeee;
+    margin-left: 40%;
+    width: 400px;
+    font-size: 45px;
+    border:1px hsl(180, 17%, 98%);
+}
+.field{
+    width: 90%;
+    padding: 3rem 1rem ;
+    outline: none;
+    border:1px solid regba ;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: 5%;
+    margin-left: 7%;
+    margin-top: 20%;
+}
+p span{
+    color: black;
+}

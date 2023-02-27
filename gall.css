@@ -1,0 +1,15 @@
+body{
+    background-color: #5761cc;
+}
+.gallery{
+    padding: 80px 0px;
+}
+img{
+    max-width: 100%;
+}
+
+
+.container-lg-col-3{
+    width: 15px;
+    height: 15px;
+}
